@@ -3,7 +3,7 @@ import { NextResponse } from "next/server"
 export async function GET() {
   try {
     const res = await fetch(
-      "https://gnews.io/api/v4/search?q=cyber+attack&lang=en&token=1f75b561ae9f6be4080fa580f1ef595b"
+      "https://gnews.io/api/v4/search?q=cyber+attack&lang=en&token=10aea1f2968ad9f60111f0b0f0c55915"
     )
 
     const data = await res.json()
