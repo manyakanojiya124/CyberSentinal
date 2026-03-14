@@ -4,16 +4,16 @@ export async function GET() {
 
   try {
 
-    const res = await fetch(
-      "http://localhost:5000/api/community/community-threat-feed",
-      {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        cache: "no-store"
-      }
-    )
+const res = await fetch(
+  `${process.env.NEXT_PUBLIC_API_URL}/api/community/community-threat-feed`,
+  {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    cache: "no-store"
+  }
+)
 
     if (!res.ok) {
       throw new Error("Backend fetch failed")
