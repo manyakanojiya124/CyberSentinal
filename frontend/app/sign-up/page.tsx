@@ -258,7 +258,7 @@ export default function SignupPage() {
   </button>
 
   {/* GitHub */}
-
+{/*
   <button
   className="btn"
   onClick={()=>startProviderSignIn('github')}
@@ -294,7 +294,7 @@ export default function SignupPage() {
   Continue with GitHub
   </>}
 
-  </button>
+  </button> */}
 
   <div style={{
   marginTop:24,

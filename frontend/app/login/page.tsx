@@ -185,7 +185,7 @@ export default function LoginPage() {
             </button>
 
             {/* GitHub */}
-            <button
+           {/* <button
               className="lp-btn lp-btn-github"
               onClick={() => loginWithProvider('github')}
               disabled={!!loadingProvider}
@@ -205,7 +205,7 @@ export default function LoginPage() {
                 ? <><span style={{ width: 14, height: 14, borderRadius: '50%', border: '2px solid rgba(255,255,255,0.15)', borderTopColor: '#fff', animation: 'spin 0.7s linear infinite', display: 'inline-block' }} /> Signing in…</>
                 : <><FaGithub style={{ fontSize: 17, flexShrink: 0, color: '#e5e7eb' }} /> Continue with GitHub</>
               }
-            </button>
+            </button> */}
 
             {/* Footer */}
             <div style={{ marginTop: 24, paddingTop: 20, borderTop: '1px solid rgba(255,255,255,0.05)', textAlign: 'center' }}>
